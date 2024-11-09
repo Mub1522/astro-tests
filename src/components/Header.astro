@@ -1,0 +1,43 @@
+<header>
+  <h1>Astro page!</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<style>
+  /* Header */
+  header {
+    background-color: purple;
+    color: white;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>

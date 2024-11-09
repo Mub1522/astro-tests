@@ -1,0 +1,17 @@
+---
+const { color, label } = Astro.props;
+---
+
+<button style={`background-color: ${color};`}>
+    {label}
+</button>
+
+<style>
+    button{
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 15px;
+        color: white;
+        cursor: pointer
+    }
+</style>
